@@ -1,0 +1,37 @@
+{% comment %}New initial code template{% endcomment %}
+{% block env %}{% endblock env %}
+
+{% block start %}
+MONSTERS = '''
+frankenstein
+ghost
+jack
+mummy
+skeleton
+vampire
+werewolf
+witch
+zombie
+'''
+
+
+def count_halloween_monsters(spell: str) -> int:
+    # your code here
+    return 0
+{% endblock start %}
+
+{% block example %}
+print('Example:')
+print(count_halloween_monsters('jack'))
+{% endblock %}
+
+# These "asserts" are used for self-checking
+{% block tests %}
+{% for t in tests %}
+assert {% block call %}count_halloween_monsters({{t.input|p_args}})
+{% endblock %} == {% block result %}{{t.answer|p}}{% endblock %}{% endfor %}
+{% endblock %}
+
+{% block final %}
+print("The mission is done! Click 'Check Solution' to earn rewards!")
+{% endblock final %}

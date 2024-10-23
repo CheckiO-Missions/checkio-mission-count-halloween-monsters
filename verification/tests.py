@@ -48,9 +48,15 @@ TESTS = {
             [['frankenstein', 2], ],
             [['skeleton', 0], ['werewolf', 9], ],
         ]),
+        ('fjackeghostn', 3, [
+            [['jack', 1], ['ghost', 6]],
+            [['frankenstein', 0], ],
+        ]),
     )),
     'Extra': list(make_extra_tests(
+        ('werewjackhvampirewitchnstree', 9),
         ('zskelemummytonhosvampirenstein', 7),
+        ('smwerewolfreneolfvampjackackhh', 12),
         ('mwzjackfvampireteinmbieenstegwitchf', 11),
         ('witghjackostghwitchmymymymskeletonsmummy', 13),
         ('wzwitzombietwerewolfgjwitchrankskejacknghostf', 14),

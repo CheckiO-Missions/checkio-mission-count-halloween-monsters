@@ -1,0 +1,75 @@
+<!-- Describe task in general -->
+
+<p style="text-align: justify;">
+    在万圣节，你决定再次用古老的咒语释放怪物。
+</p>
+
+<p>
+    输入值是由以下怪物名称堆叠生成的字符串：
+</p>
+<ul>
+    <li><b>frankenstein</b></li>
+    <li><b>ghost</b></li>
+    <li><b>jack</b> （千层灯）</li>
+    <li><b>mummy</b></li>
+    <li><b>skeleton</b></li>
+    <li><b>vampire</b></li>
+    <li><b>werewolf</b></li>
+    <li><b>witch</b></li>
+    <li><b>zombie</b></li>
+</ul>
+<p>
+    查找并计算该字符串中的怪物，并返回数量。
+</p>
+
+<strong>注意：</strong>
+<ul>
+    <li>答案是<b>minimum</b> 可能的值。</li>
+    <li>同一类型的怪物可能存在多个。</li>
+</ul>
+
+<p>
+    <strong>举例说明</strong>
+</p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">
+assert count_halloween_monsters('jack') == 1
+assert count_halloween_monsters('jaghost') == 2
+assert count_halloween_monsters('zombieletwitch') == 3
+assert count_halloween_monsters('jackostmmzombiere') == 5
+assert count_halloween_monsters('skfrawitchteinolf') == 4
+</pre>
+
+<p style="text-align: center;">
+    <img title="example_01" src="{{MEDIA}}count_halloween_monsters_example_01.svg" alt="example_01" style="vertical-align:top; width:253px;"/>
+    <img title="example_02" src="{{MEDIA}}count_halloween_monsters_example_02.svg" alt="example_02" style="vertical-align:top; width:253px;"/>
+</p>
+
+
+
+<!-- Explain input and output values -->
+<p>
+   <strong>输入：</strong>咒语（字符串）。
+</p>
+
+<p>
+   <strong>输出：</strong>怪物数量（整数）。
+</p>
+
+<!-- The section is optional -->
+<p>
+    <strong>先决条件</strong>
+    <ul>
+        <li>4 &le; len(spell) &le; 50</li>
+    </ul>
+</p>
+<!-- Here you can explain how it can be used in development -->
+<!-- The section is optional -->
+<!-- <p class="for_info_only">
+
+    <strong>How it’s used:</strong>
+    <i>(math is used everywhere)</i>
+</p> -->
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->

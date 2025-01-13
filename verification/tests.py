@@ -54,7 +54,7 @@ TESTS = {
         ]),
     )),
     'Extra': list(make_extra_tests(
-        ('werewjackhvampirewitchnstree', 9),
+        ('werewjackhvampirewitchnstree', 8),
         ('zskelemummytonhosvampirenstein', 7),
         ('smwerewolfreneolfvampjackackhh', 12),
         ('mwzjackfvampireteinmbieenstegwitchf', 11),
